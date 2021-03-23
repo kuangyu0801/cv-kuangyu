@@ -1,0 +1,152 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV
+% LaTeX Template
+% Version 2.0 (8/5/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Trey Hunner (http://www.treyhunner.com/)
+%
+% Important note:
+% This template requires the resume.cls file to be in the same directory as the
+% .tex file. The resume.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{resume} % Use the custom resume.cls style
+\usepackage{xcolor} % includes color package
+\usepackage{hyperref}
+
+\usepackage[left=0.5in,top=0.5in,right=0.5in,bottom=0.25in]{geometry} % Document margins
+
+\name{Kuang-Yu Li} % Your name
+\address{Allmandring 20D, Stuttgart, Germany 70569 \\ +49 152 07439908 } % Your address
+\address{\href{mailto:kuangyu.li@outlook.com}{kuangyu.li@outlook.com} \\ \href{https://www.linkedin.com/in/kuang-yu-li-lumiere/}{LinkedIn: kuang-yu-li-lumiere} \\ \href{https://github.com/kuangyu0801}{GitHub: kuangyu0801}} % Your phone number and email
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+{\bf Universität Stuttgart }{--  Stuttgart, Germany}  \hfill {Oct. 2019 - present}\\
+{\em M.S. in Information Technology}{, German Grading: 1.8 (Gut) \\ 
+{\bf National Chiao Tung University (NCTU) }{--  Hsinchu, Taiwan} \\
+\em M.S. in Electronics Engineering and Electronics}{, GPA: 4.27/4.3} \hfill {Sept. 2013 - Oct. 2015}\\ 
+{\em B.S. in Electrical Engineering and Computer Science}{, GPA: 3.9/4.3} \hfill { Sept. 2009 - Aug. 2013}
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Experience}
+
+\begin{rSubsection}{MediaTek, Inc.}{-- Hsinchu, Taiwan}{Dec. 2015 - Aug. 2019}{Firmware Engineer}
+
+\item Developed firmware in Android smartphone for 5G/4G mobile communication digital signal processing
+\item Wrote 6K code lines, reviewed and maintained 20K code lines in C/C++ on Red Hat Enterprise Linux
+\item Designed firmware architecture, implemented algorithm, developed and published tests with Python and Perl scripts for performance verification 
+\item Participated in 3 large-scale projects(over 200K code lines and 1000 engineers) and collaborated and communicated with software and hardware teams across 9 countries
+\item Involved in all stages of SDLC for over 10 MediaTek’s smartphone products including world's fastest 5G  \href{https://newsletter.mediatek.com/hubfs/whatis5gnew/infographic.pdf
+}{Helio M70} with download speed 4.7Gbps in 2019
+\item Supported technical issue with troubleshooting, issue analysis, solution implementation, and patch releasing for global customer including Samsung, LG and Huawei
+\item Received 7 times MediaTek vAward in recognition of top 10\% performance of the month
+
+\end{rSubsection}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	TECHNICAL STRENGTHS SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Technical Strengths}
+\begin{tabular}{ @{} >{ \bfseries}l @{ \hspace{1ex}} l}
+
+% Field & Software Development, Mobile Communication \\
+
+{\small Programming} & {\small Java, Python, C/C++, JSON, HTML/CSS, SQL, Perl, MATLAB, Assembly} \\
+{\small Tool} & {\small Git, GitHub, Perforce, IntelliJ, PyCharm, Android Studio, VirtualBox, Docker} \\
+%{\small Platform \& Protocol} & {\small Amazon Web Services (AWS), IBM Db2, Google Firebase,  TCP/IP, HTTP, REST}  \\
+{\small Platform \& Protocol} & {\small Google Firebase, JavaServer Pages (JSP), OpenFlow, TCP/IP, HTTP, REST}  \\
+
+{\small Language} &  {\small German (intermediate), English (fluent), Chinese (native)} \\
+
+\end{tabular}
+%\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+% Computer Languages & Prolog, Haskell, AWK, Erlang, Scheme, ML \\
+% Protocols \& APIs & XML, JSON, SOAP, REST \\
+% Databases & MySQL, PostgreSQL, Microsoft SQL \\
+% Tools & SVN, Vim, Emacs
+%\end{tabular}
+
+\end{rSection}
+%----------------------------------------------------------------------------------------
+%	PROJECT
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{PROJECTS}
+\begin{rSubsection}{\href{https://github.com/kuangyu0801/software-defined-networking-ws20/tree/main/sdn-assign-04}{Publish-Subscribe Service for Software-Defined Network}} { Java, REST API, HTTP}{SDN Lab}{} \\
+\item Developed a "Subscriber" Java application which can register energy measurement data subscription via REST API and receive UDP datagram from a publishing service by type and value.
+\item Developed a publishing service, which can receive subscription via HTTP request (GET, POST,  DELETE) and perform content-based routing in a OpenFlow network. The services is developed as a Java module in Floodlight controller. The routing algorithm is based on sorting and merging interval of encoded IP-address to minimize network traffic and reduce application filtering effort.
+\end{rSubsection}
+
+\begin{rSubsection}{\href{https://github.com/kuangyu0801/software-defined-networking-ws20/tree/main/sdn-assign-03}{Dynamic Routing for Software-Defined Network}} {Java, Dijkstra's algorithm}{SDN Lab}{} \\
+\item Developed a Java module in Floodlight controller, which provides two dynamic routing modes in OpenFlow network. The Adaptive mode achieves 6 times bandwidth increase (582kbs vs 3478kbs) verified with Iperf tool in a MiniNet virtual network on Linux. 
+\item Reactive mode routes with shortest path. Adaptive mode routes TCP flow with load balancing by querying network traffic statistics dynamically and routing in network and transport layer. The implementation is based on Dijkstra's algorithm.
+\end{rSubsection}
+
+\begin{rSubsection}{\href{https://github.com/kuangyu0801/MobileComputing_SS20_assign04}{Routing Protocols for Wireless Ad-hoc Network}} { -- Java}{Mobile Computing}{} \\
+\item Implemented 2 routing \textcolor{red}{protocols}: {\em Flooding} and {\em Dynamic Source Routing(DSR)} for ad-hoc wireless network. 
+\item Developed server and client program based on {\em UDP Datagram API} with {\em java.net} package
+\item Deployed and verified the program on Raspberry Pi with real-world 802.11 WIFI ad-hoc network.
+\end{rSubsection}
+\begin{rSubsection}{\href{https://github.com/kuangyu0801/MobileComputing_SS20_assign03}{Location Temperature App with Realtime Database}}{-- Android, Java}{Mobile Computing}{} \\
+\item Developed {\em Android} application for location and temperature data in JSON with {\em NoSQL database}, {\em Google Firebase Readtime Database}
+\item Implement functions for access, update, query, subscribe data in  with Firebase-API
+\end{rSubsection}
+\begin{rSubsection}{\href{https://github.com/kuangyu0801/WS19_ComplexNetworkSystem}{ATP Tennis Player Network Analysis}}{-- Python}{Complex Network System}{} \\
+
+\item Parsed data  from real tennis match statics in {\em csv}, constructed data into an {\em undirectied graph}
+\item Implemented functions to calculated structural insight of the network with {\em NetworkX} package
+\item Discovered, visualized and rendered network topology with open-source software {\em Gephi}
+\end{rSubsection}
+
+\begin{rSubsection}{\bf \href{https://1drv.ms/p/s!AiukWIzY5GZp22FjndnKscnEaL85?e=F2UJEL}{Forest Cover Type Prediction}}{-- Python}{Machine Learning}{}
+\item Implemented {\em Decision Tree} and {\em Support Vector Machine} with {\em Scikits-Learn} package, evaluated and discussed the performance on forest type classification problem 
+
+\end{rSubsection}
+
+\end{rSection}
+
+%%
+%\begin{rSection}{HONOR}
+%{\bf NCTU Excellent Exchange Student Scholarship}  \hfill {Aug. 2012}\\
+%{9,000 USD for exchange to Katholieke Universiteit Leuven, Belgium (top 2\% in NCTU)
+%\end{rSection}
+
+%%
+%----------------------------------------------------------------------------------------
+
+%----------------------------------------------------------------------------------------
+%	EXAMPLE SECTION
+%----------------------------------------------------------------------------------------
+
+%\begin{rSection}{Section Name}
+% {\bf #Title} \hfill {\em #Time} \\ 
+% #Description
+
+%Section content\ldots
+
+%\end{rSection}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
