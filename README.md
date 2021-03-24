@@ -8,18 +8,19 @@
 
 ## 排版
 - 專有名詞附上連結？！
-- 版本管理
 - 挑一個更好讀的字體：無襯線
 - 顏色Highlight
+- 關鍵字標底線或是斜體或是改顏色？
 - [Done] 邊界不夠寬
 - [Done] 名字下面直接先放email, linkedlin, github
 - [Done] 之後再放住址
+- [Done] 版本管理
 
 ## Professional Headline/Summary
 - 關鍵字：back-end, cloud, java, software
 - 目前想到的有
 	- Cloud-Focused IT Master Graduate
-	- 
+
 ## Technical Strength
 -  怎麼樣分類比較好
 	- Tool: 拿掉PyCharm, 加入Eclipse, Kubernette, JUnit
@@ -34,7 +35,7 @@
 用xml設計interface, 用yaml去define test case, UT, IT, regression
 ## Project
 - 應該要怎樣描述一個project比較好？目的，功能，底層實踐？
-- 關鍵字標底線或是斜體或是改顏色？
+
 
 ### SDN-4: Publish-Subscribe Service for Software-Defined Network, Java, REST API, HTTP
 - Developed a "Subscriber" Java application which can register energy measurement data subscription via REST API and receive UDP datagram from a publishing service by type and value.

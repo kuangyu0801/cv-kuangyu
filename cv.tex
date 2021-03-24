@@ -40,7 +40,7 @@
 {\em M.S. in Information Technology}{, German Grading: 1.8 (Gut) \\ 
 {\bf National Chiao Tung University (NCTU) }{--  Hsinchu, Taiwan} \\
 \em M.S. in Electronics Engineering and Electronics}{, GPA: 4.27/4.3} \hfill {Sept. 2013 - Oct. 2015}\\ 
-{\em B.S. in Electrical Engineering and Computer Science}{, GPA: 3.9/4.3} \hfill { Sept. 2009 - Aug. 2013}
+{\em B.S. in Electrical Engineering and Computer Science}{, GPA: 3.9/4.3} \hfill {Sept. 2009 - Aug. 2013}
 \end{rSection}
 
 %----------------------------------------------------------------------------------------
@@ -99,14 +99,15 @@
 \end{rSubsection}
 
 \begin{rSubsection}{\href{https://github.com/kuangyu0801/software-defined-networking-ws20/tree/main/sdn-assign-03}{Dynamic Routing for Software-Defined Network}} {Java, Dijkstra's algorithm}{SDN Lab}{} \\
-\item Developed a Java module in Floodlight controller, which provides two dynamic routing modes in OpenFlow network. The Adaptive mode achieves 6 times bandwidth increase (582kbs vs 3478kbs) verified with Iperf tool in a MiniNet virtual network on Linux. 
-\item Reactive mode routes with shortest path. Adaptive mode routes TCP flow with load balancing by querying network traffic statistics dynamically and routing in network and transport layer. The implementation is based on Dijkstra's algorithm.
+\item Developed a Java module in Floodlight controller, which provides 2 dynamic routing modes in OpenFlow network. 
+\item Reactive mode routes with shortest path. Adaptive mode routes TCP flow with load balancing by querying network traffic statistics dynamically and matching IP adresses and TCP ports. The implementation is based on Dijkstra's algorithm.
+\item Verified application with Iperf in MiniNet on Linux and achieves 6x bandwidth increase (582kbs vs 3478kbs) in adaptive mode
 \end{rSubsection}
 
-\begin{rSubsection}{\href{https://github.com/kuangyu0801/MobileComputing_SS20_assign04}{Routing Protocols for Wireless Ad-hoc Network}} { -- Java}{Mobile Computing}{} \\
-\item Implemented 2 routing \textcolor{red}{protocols}: {\em Flooding} and {\em Dynamic Source Routing(DSR)} for ad-hoc wireless network. 
-\item Developed server and client program based on {\em UDP Datagram API} with {\em java.net} package
-\item Deployed and verified the program on Raspberry Pi with real-world 802.11 WIFI ad-hoc network.
+\begin{rSubsection}{\href{https://github.com/kuangyu0801/MobileComputing_SS20_assign04}{Java Application for Wireless Ad-hoc Network}} {Java, UDP, Raspberry Pi}{Mobile Computing}{} \\
+\item Developed 4 Java server and client applications which implement 2 protocols: Flooding and Dynamic Source Routing (DSR). Flooding achieves high robustness with UDP messages broadcast. DSR achieves reduced data transfer overhead with route discovery in control messages. Applications use DatagramSocket classes from java.net package for UDP transmission.
+\item Verified applications on Raspberry Pi with real mesh 802.11 WiFi network. 
+
 \end{rSubsection}
 \begin{rSubsection}{\href{https://github.com/kuangyu0801/MobileComputing_SS20_assign03}{Location Temperature App with Realtime Database}}{-- Android, Java}{Mobile Computing}{} \\
 \item Developed {\em Android} application for location and temperature data in JSON with {\em NoSQL database}, {\em Google Firebase Readtime Database}
