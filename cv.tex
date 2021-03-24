@@ -93,28 +93,27 @@
 %----------------------------------------------------------------------------------------
 
 \begin{rSection}{PROJECTS}
-\begin{rSubsection}{\href{https://github.com/kuangyu0801/software-defined-networking-ws20/tree/main/sdn-assign-04}{Publish-Subscribe Service for Software-Defined Network}} { Java, REST API, HTTP}{SDN Lab}{} \\
+\begin{rSubsection}{\href{https://github.com/kuangyu0801/software-defined-networking-ws20/tree/main/sdn-assign-04}{Publish-Subscribe Service for Software-Defined Network}} { Java, REST API, HTTP}{SDN Lab}{}
 \item Developed a "Subscriber" Java application which can register energy measurement data subscription via REST API and receive UDP datagram from a publishing service by type and value.
 \item Developed a publishing service, which can receive subscription via HTTP request (GET, POST,  DELETE) and perform content-based routing in a OpenFlow network. The services is developed as a Java module in Floodlight controller. The routing algorithm is based on sorting and merging interval of encoded IP-address to minimize network traffic and reduce application filtering effort.
 \end{rSubsection}
 
-\begin{rSubsection}{\href{https://github.com/kuangyu0801/software-defined-networking-ws20/tree/main/sdn-assign-03}{Dynamic Routing for Software-Defined Network}} {Java, Dijkstra's algorithm}{SDN Lab}{} \\
+\begin{rSubsection}{\href{https://github.com/kuangyu0801/software-defined-networking-ws20/tree/main/sdn-assign-03}{Dynamic Routing for Software-Defined Network}} {Java, Dijkstra's algorithm}{SDN Lab}{}
 \item Developed a Java module in Floodlight controller, which provides 2 dynamic routing modes in OpenFlow network. 
 \item Reactive mode routes with shortest path. Adaptive mode routes TCP flow with load balancing by querying network traffic statistics dynamically and matching IP adresses and TCP ports. The implementation is based on Dijkstra's algorithm.
 \item Verified application with Iperf in MiniNet on Linux and achieves 6x bandwidth increase (582kbs vs 3478kbs) in adaptive mode
 \end{rSubsection}
 
-\begin{rSubsection}{\href{https://github.com/kuangyu0801/MobileComputing_SS20_assign04}{Java Application for Wireless Ad-hoc Network}} {Java, UDP, Raspberry Pi}{Mobile Computing}{} \\
+\begin{rSubsection}{\href{https://github.com/kuangyu0801/MobileComputing_SS20_assign04}{Java Application for Wireless Ad-hoc Network}} {Java, UDP, Raspberry Pi}{Mobile Computing}{}
 \item Developed 4 Java server and client applications which implement 2 protocols: Flooding and Dynamic Source Routing (DSR). Flooding achieves high robustness with UDP messages broadcast. DSR achieves reduced data transfer overhead with route discovery in control messages. Applications use DatagramSocket classes from java.net package for UDP transmission.
 \item Verified applications on Raspberry Pi with real mesh 802.11 WiFi network. 
 
 \end{rSubsection}
-\begin{rSubsection}{\href{https://github.com/kuangyu0801/MobileComputing_SS20_assign03}{Location Temperature App with Realtime Database}}{-- Android, Java}{Mobile Computing}{} \\
+\begin{rSubsection}{\href{https://github.com/kuangyu0801/MobileComputing_SS20_assign03}{Location Temperature App with Realtime Database}}{-- Android, Java}{Mobile Computing}{}
 \item Developed {\em Android} application for location and temperature data in JSON with {\em NoSQL database}, {\em Google Firebase Readtime Database}
 \item Implement functions for access, update, query, subscribe data in  with Firebase-API
 \end{rSubsection}
-\begin{rSubsection}{\href{https://github.com/kuangyu0801/WS19_ComplexNetworkSystem}{ATP Tennis Player Network Analysis}}{-- Python}{Complex Network System}{} \\
-
+\begin{rSubsection}{\href{https://github.com/kuangyu0801/WS19_ComplexNetworkSystem}{ATP Tennis Player Network Analysis}}{-- Python}{Complex Network System}{}
 \item Parsed data  from real tennis match statics in {\em csv}, constructed data into an {\em undirectied graph}
 \item Implemented functions to calculated structural insight of the network with {\em NetworkX} package
 \item Discovered, visualized and rendered network topology with open-source software {\em Gephi}
