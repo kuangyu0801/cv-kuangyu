@@ -3,12 +3,15 @@
 # 參考資料：
 - 排版可以參考這篇：https://theundercoverrecruiter.com/what-is-the-best-font-for-your-resume-infographic/
 - overleaf using color: https://www.overleaf.com/learn/latex/Using_colours_in_LaTeX
-- 
+- 如何local build latext
+	- 安裝macTex, 可以直接用TeXShop產生pdf
+	- Editor可以選用texmaker
+
 # 改進項目
 
 ## 排版
 - 專有名詞附上連結？！
-- 挑一個更好讀的字體：無襯線
+- [Done] 挑一個更好讀的字體：無襯線
 - 顏色Highlight
 - 關鍵字標底線或是斜體或是改顏色？
 - [Done] 邊界不夠寬
@@ -36,12 +39,24 @@
 ## Project
 - 應該要怎樣描述一個project比較好？目的，功能，底層實踐？
 
-
+## Projects
+- Github 頁面整理
+	+ 要求
+		+ README, 一目瞭然
+		+ src code folder清楚
+		+ report直接放在外面
+	+ https://github.com/kuangyu0801/software-defined-networking-ws20/tree/main/sdn-assign-03
+	+ https://github.com/kuangyu0801/software-defined-networking-ws20/tree/main/sdn-assign-04
+	+ mobile computing project merging
+		+ 加入demo 影片
+	+ cpx project cleasing
+		+ 整理報告（壓縮程式當檔案）
 ### SDN-4: Publish-Subscribe Service for Software-Defined Network, Java, REST API, HTTP
 - Developed a "Subscriber" Java application which can register energy measurement data subscription via REST API and receive UDP datagram from a publishing service by type and value.
 - Developed a publishing service, which can receive subscription via HTTP request (GET, POST,  DELETE) and perform content-based routing in OpenFlow network. The services is developed as a Java module in Floodlight controller. The routing algorithm is based on sorting and merging interval of encoded IP-address to minimize network traffic and reduce application filtering effort.
 - Follow-up: GitHub reformat
 - Jakson parser
+
 ### SDN-3: Dynamic Routing for Software-Defined Network, Java, TCP, Dijkstra
 - Developed a Java module in Floodlight controller, which provides two dynamic routing modes in OpenFlow network.
 - Reactive mode routes with shortest path. Adaptive mode routes TCP flow with load balancing by querying network traffic statistics dynamically and routing in network and transport layer. The implementation is based on Dijkstra's algorithm.
@@ -51,13 +66,26 @@
 - Other keyword: 
 Path Selection, maximize bandwidth utilization
 
-### MC-4: Routing Protocols for Wireless Ad-hoc Network, Java, UDP, Raspberry Pi
-- Flooding in application layer uses UDP broadcast messages to achieve high robustness.
-- Dynamic Source Routing (DSR) achieves reduced data transfer overhead
-- Deployed and verified applications on Raspberry Pi with real mesh 802.11 WIFI network. 
+### MC-4: Java Application for Wireless Ad-hoc Network Communication, Java, UDP, Raspberry Pi
+- Developed 4 Java server and client applications which implement 2 protocols: Flooding and Dynamic Source Routing (DSR). 
+- Uses DatagramSocket classes from java.net package for UDP transmission.
+- Flooding achieves high robustness with UDP messages broadcast.
+- DSR achieves reduced data transfer overhead with route discovery in control messages: Route Request (RREQ) and Route Reply (RREP).
+- Deployed and verified applications on Raspberry Pi with real mesh 802.11 WiFi network. 
 Java Socket programming
-## 版本管理
-- 如何local build latext
-	- 如何直接利用overleaf範本auto build
-	- 安裝macTex, 可以直接用TeXShop產生pdf,
-	-  TODO: TexMaker的default command沒有辦法產生pdf, 要在挑整
+
+### ATP Tennis Player Network Analysis
+- Developed Python programs to build tennis player network and derive structural insights such as Page Rank, Connectivity and Clustering.
+- Implemented alogorithms with NetworkX package and built an undirectied graph by processing real tennis match statics in csv format.
+- Visualized and rendered network topology with open-source software Gephi
+of tennis match statics.
+
+Discovered, 
+# My Days in MTK
+- Modem and AP relationship
+- 4G制式
+- FW, HW, SW的關係, ECO, 對應不同版好
+- 產品如何靠eFuse區別
+- release的load各種進code規定, brp interface
+- logging system台灣跟大陸的權限
+- 3G, 4G時代中國政府對於電信商補貼的關係與策略, 運營商, 手機商的角力
