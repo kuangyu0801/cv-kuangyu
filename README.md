@@ -6,6 +6,10 @@
 - 如何local build latext
 	- 安裝macTex, 可以直接用TeXShop產生pdf
 	- Editor可以選用texmaker
+- linkedIn Page and CV always up to date
+- work visa eligibility
+- https://resumegenius.com/blog/resume-help/latex-resume-template
+- 這個版本很好！https://github.com/posquit0/Awesome-CV
 
 # 改進項目
 
@@ -73,6 +77,11 @@ Path Selection, maximize bandwidth utilization
 - DSR achieves reduced data transfer overhead with route discovery in control messages: Route Request (RREQ) and Route Reply (RREP).
 - Deployed and verified applications on Raspberry Pi with real mesh 802.11 WiFi network. 
 Java Socket programming
+
+
+### Location Temperature App with Realtime Database
+- Developed Android application for location and temperature data in JSON with NoSQL database, Google Firebase Readtime Database
+- Implement- functions for access, update, query, subscribe data in with Firebase-API
 
 ### ATP Tennis Player Network Analysis
 - Developed Python programs to build tennis player network and derive structural insights such as Page Rank, Connectivity and Clustering.

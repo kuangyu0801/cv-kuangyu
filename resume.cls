@@ -35,6 +35,10 @@
 \def \name#1{\def\@name{#1}} % Defines the \name command to set name
 \def \@name {} % Sets \@name to empty by default
 
+\def \headline#1{\def\@headline{#1}} % Defines the \headline command to set headline
+\def \@headline {} % Sets \@headline to empty by default
+
+
 \def \addressSep {$\diamond$} % Set default address separator to a diamond
 
 % One, two or three address lines can be specified 
@@ -72,6 +76,16 @@
   \endgroup
 }
 
+% \printheadline is used to print the name as a page header
+\def \printheadline {
+  \begingroup
+  \begin{center}
+  •\@headline
+  \end{center}
+	
+  \endgroup
+  \par
+}
 %----------------------------------------------------------------------------------------
 %	PRINT THE HEADING LINES
 %----------------------------------------------------------------------------------------
@@ -80,6 +94,7 @@
 \renewcommand{\document}{
   \ori@document  % Begin document
   \printname % Print the name specified with \name
+ % \printheadline % Print the headline specified with \headline
   \@ifundefined{@addressone}{}{ % Print the first address if specified
     \printaddress{\@addressone}}
   \@ifundefined{@addresstwo}{}{ % Print the second address if specified
@@ -126,6 +141,6 @@
 % The below commands define the whitespace after certain things in the document - they can be \smallskip, \medskip or \bigskip
 \def\namesize{\huge} % Size of the name at the top of the document
 \def\addressskip{\smallskip} % The space between the two address (or phone/email) lines
-\def\sectionlineskip{\medskip} % The space above the horizontal line for each section 
+\def\sectionlineskip{\smallskip} % The space above the horizontal line for each section 
 \def\nameskip{\bigskip} % The space after your name at the top
 \def\sectionskip{\medskip} % The space after the heading section
