@@ -113,7 +113,7 @@ Discovered,
 - 競爭力的探求：IC設計、高科技產業實戰策略與觀察 https://www.books.com.tw/products/0010396103?sloc=main
 
 # Similar Position
-## 5G NR communication software development engineer
+## 4G/5G Protocol Software Engineer and project lead 
 + Job Description
 Modem project management
 Customer partnership
@@ -125,6 +125,16 @@ Customer engineering for 4G/5G modem/protocol/system domains
 4. Experienced in Wireless communication or embedded system development
 5. Related working experience in mobile or wireless software is preferred
 6. Familiar with MTK modem solution
+
+## 5G NR communication software development engineer
++ Job Description
+1. Develop multi-mode NR/LTE L1/DSP software, including state machine, channel scheduling and modem/RF control SW
+2. Implement OFDM communication signal processing and theory in embedded system
+3. Realize digital communication in ASIP/DSP architecture
++ Requirement
+1. Familiar with C Language and Data Structure
+2. Familiar with digital communication
+3. Better if have studied 3GPP NR/LTE Spec or have experience in L1 and Protocol(> 3 years)
 
 ## 4G/5G Communication System Analysis Engineer
 + Job Description
