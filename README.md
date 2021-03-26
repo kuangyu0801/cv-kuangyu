@@ -38,8 +38,13 @@
 
 - change request, performance enhancement, assertion/exception root cause debugging
 - release using Jenkins
+- 需要更多keyword
+
 可以放入產品spec比較專業, https://www.mediatek.com/products/smartphones/mediatek-helio-p25
 用xml設計interface, 用yaml去define test case, UT, IT, regression
+- Handled technical change requests with troubleshooting, log examination, issue analysis, solution implementation and patch releasing for global including Samsung, LG and Huawei, etc.
+- Supported technical issue with troubleshooting, issue analysis, solution implementation, and patch releasing for global customer including Samsung, LG and Huawei, etc.
+
 ## Project
 - 應該要怎樣描述一個project比較好？目的，功能，底層實踐？
 
@@ -79,9 +84,9 @@ Path Selection, maximize bandwidth utilization
 Java Socket programming
 
 
-### Location Temperature App with Realtime Database
-- Developed Android application for location and temperature data in JSON with NoSQL database, Google Firebase Readtime Database
-- Implement- functions for access, update, query, subscribe data in with Firebase-API
+### Android App for City Temperature with Google Firebase
+- Developed an Android application, which can update, subscribe, and calculate daily avearge of designated city temperature
+- Implemented functions for accessing and querrying shared data in Readtime NoSQL database in JSON format with Google Firebase API
 
 ### ATP Tennis Player Network Analysis
 - Developed Python programs to build tennis player network and derive structural insights such as Page Rank, Connectivity and Clustering.
