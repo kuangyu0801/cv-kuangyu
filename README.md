@@ -95,7 +95,14 @@ Java Socket programming
 of tennis match statics.
 
 Discovered, 
+
 # My Days in MTK
+- 同一個公司不同地域的職位關係
+	- 英國負責演算法
+	- 大陸負責不敏感的
+	- 美國有架構
+	- 台灣Design, DSP核心
+	- 瑞典架構
 - Modem and AP relationship
 - 4G制式
 - FW, HW, SW的關係, ECO, 對應不同版好
@@ -103,3 +110,46 @@ Discovered,
 - release的load各種進code規定, brp interface
 - logging system台灣跟大陸的權限
 - 3G, 4G時代中國政府對於電信商補貼的關係與策略, 運營商, 手機商的角力
+- 競爭力的探求：IC設計、高科技產業實戰策略與觀察 https://www.books.com.tw/products/0010396103?sloc=main
+
+# Similar Position
+## 5G NR communication software development engineer
++ Job Description
+Modem project management
+Customer partnership
+Customer engineering for 4G/5G modem/protocol/system domains
++ Requirement
+1. Experienced with modem protocol and system.
+2. Project management skill
+3. MS or above with major in EE, CS or Telecommunication Engineering related field
+4. Experienced in Wireless communication or embedded system development
+5. Related working experience in mobile or wireless software is preferred
+6. Familiar with MTK modem solution
+
+## 4G/5G Communication System Analysis Engineer
++ Job Description
+1. Communication system analysis for 5G NR system
+(a) PHY Spec and Procedure Validation
+(b) Algorithm design verification and signal analysis
+(c) System verification and procedure analysis
+2. Communication platform development for 5G NR system analysis
+(a) L1 test mode development for physical layer verification.
+(b) Full Stack (MLAPI/XLAPI) platform development for system and RRM verification
+3. Modem 4/5G system level / physical layer issue analysis
+(a) Develop and integrate build and auto testing process
+(b) Collect / analyze system requirement & system design
+(c) Support urgent system function or performance problem
++ Requirement
+1. Related background of wireless communication, digital communication, and digital signal processing, etc.
+2. Knowledge of the OFDM related system (NR,LTE, WiFi, DTV, WiMAX...,etc)
+3. It's better if you are familiar with 3GPP LTE/NR spec or with the related experience for algorithm design.
+4. It's better if you have the experience for MLAPI development or RRM on LTE.
+5. Experience with at least one of the following area
+5.1. LMMSE
+5.2. MIMO mutual information theory
+5.3. MIMO channel estimation theory
+6.Plus if match the following criteria
+6.1. turbo code decode, LDPC decode, polar code decode
+6.2. MIMO search algorithm
+6.3. SIC (successive interference canceling) algorithm
+7. RF receiver structure
