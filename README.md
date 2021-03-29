@@ -31,8 +31,10 @@
 ## Technical Strength
 -  怎麼樣分類比較好
 	- Tool: 拿掉PyCharm, 加入Eclipse, Kubernette, JUnit
+	- 加入protocol: HTTP, TCP/IP,
 
 ## 工作經驗
+- 需要好的動詞！https://www.monster.com/career-advice/article/sample-resume-software-engineer-midlevel
 - 數字化導向：我經手的project跟product!
 - design interface between HW, BRP, L1
 
@@ -163,3 +165,18 @@ Customer engineering for 4G/5G modem/protocol/system domains
 6.2. MIMO search algorithm
 6.3. SIC (successive interference canceling) algorithm
 7. RF receiver structure
+
+## 2021 System Performance Evaluation Intern
+FW implementation of performance evaluation of microprocessor used in cellular modem application in 5G.
+
+· Performance evaluations of FW modules for code size and cycles.
+· Design of software models for several microprocessor modules.
+· Detailed documentation of the designs.
+
+Currently enrolled in MS or PhD program pursuing degree in Electrical Engineering, Computer Engineering, or Computer Science
+
+· BS in Electrical Engineering, Computer Engineering, or Computer Science is required
+· Proficient in C, C++, and Python programming
+· Excellent FW design concepts/experiences including vector processing design through previous internship or school projects
+· Knowledge of computer architecture and/or performance evaluation and analysis
+· Experience with operating system and compiler design are big pluses
