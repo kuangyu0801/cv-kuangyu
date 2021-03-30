@@ -28,6 +28,17 @@
 - 關鍵字：back-end, cloud, java, software
 - 目前想到的有
 	- Cloud-Focused IT Master Graduate
+- 參考敘述
+
+Requirements:
+
+- 2+ years of proven industry experience working on the production backend services or infrastructure for large-scale, highly distributed mobile and web applications.
+- Strong Java and Python with OOP (Object-Oriented Programming, RESTful APIs, Swagger, JSON) experience and proficient with version control such as GitHub, SVN, P4.
+- Proficient in working with Linux, Shell scripting, Database, data transformation and Cloud-based technologies such as AWS, OpenStack, or Google Cloud.
+- Solid understanding of basic design principles behind a scalable application.
+- Passionate about the architecture, automated testing framework including unit tests, quality, and performance of the applications your team builds.
+- Understanding of the full stack and have participated in the development, build, testing and release process.
+- Continuous incorporation of new and creative technical solutions to improve your products.
 
 ## Technical Strength
 -  怎麼樣分類比較好
