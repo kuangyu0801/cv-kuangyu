@@ -1,6 +1,7 @@
 # cv-kuangyu
 
 # 參考資料：
+- 地裡資料總整理（非常齊全！）：https://www.1point3acres.com/bbs/thread-19-1-1.html
 - 排版可以參考這篇：https://theundercoverrecruiter.com/what-is-the-best-font-for-your-resume-infographic/
 - overleaf using color: https://www.overleaf.com/learn/latex/Using_colours_in_LaTeX
 - 如何local build latext
