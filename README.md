@@ -1,7 +1,12 @@
 # cv-kuangyu
 
 # 參考資料：
-- 地裡資料總整理（非常齊全！）：https://www.1point3acres.com/bbs/thread-19-1-1.html
+- 檢查履歷vs職缺keyword jobscan: https://www.jobscan.co/
+	+ Beat the Robots: How to Get Your Resume Past the System & Into Human Hands https://www.themuse.com/advice/beat-the-robots-how-to-get-your-resume-past-the-system-into-human-hands
+- 地裡資料總整理（許多reference link已經失效需要另外google）：https://www.1point3acres.com/bbs/thread-19-1-1.html
+	+ UMich Resume Resources https://careercenter.umich.edu/article/resume-resources
+	+ MIT on CV, coverletter, linkedin: https://capd.mit.edu/jobs-and-internships/resumes-cvs-cover-letters-and-linkedin
+
 - 排版可以參考這篇：https://theundercoverrecruiter.com/what-is-the-best-font-for-your-resume-infographic/
 - overleaf using color: https://www.overleaf.com/learn/latex/Using_colours_in_LaTeX
 - 如何local build latext
@@ -11,9 +16,24 @@
 - work visa eligibility
 - https://resumegenius.com/blog/resume-help/latex-resume-template
 - 這個版本很好！https://github.com/posquit0/Awesome-CV
-
+- 英文標題大寫準則： https://www.dailywritingtips.com/capitalizing-the-elements-of-a-compound-word-in-a-title/
+- X-Y-Z fomular
+	+ Google recruiters always look for the 'X-Y-Z formula' in candidates' resumes when deciding who to hire https://www.businessinsider.com/what-google-recruiters-look-for-resume-including-x-y-z-formula-9?r=DE&IR=T
 # 改進項目
+- 見issue https://github.com/kuangyu0801/cv-kuangyu/issues
 
+# 檢查
+1. Typos
+2. Length
+3. Formatting
+At least ten point font. At least half-inch margins. White paper, black ink. Consistent spacing between lines
+4. Confidential information
+The New York Times test is helpful here: if you wouldn't want to see it on the home page of the NYT with your name attached (or if your boss wouldn't!), don't put it on your resume.
+5. Truth
+
+# 原則
+
+- Accomplished [X] as measured by [Y] by doing [Z] https://www.linkedin.com/pulse/20140929001534-24454816-my-personal-formula-for-a-better-resume/?src=aff-lilpar&veh=aff_src.aff-lilpar_c.partners_pkw.10078_plc.Skimbit%20Ltd._pcrid.449670_learning&trk=aff_src.aff-lilpar_c.partners_pkw.10078_plc.Skimbit%20Ltd._pcrid.449670_learning&clickid=zx7V-WRRmxyLTZIwUx0Mo3EoUkEXLhVGVwr7Sk0&irgwc=1
 ## 排版
 - 專有名詞附上連結？！
 - [Done] 挑一個更好讀的字體：無襯線
@@ -74,9 +94,12 @@ Requirements:
 		+ 加入demo 影片
 	+ cpx project cleasing
 		+ 整理報告（壓縮程式當檔案）
+
 ### SDN-4: Publish-Subscribe Service for Software-Defined Network, Java, REST API, HTTP
-- Developed a "Subscriber" Java application which can register energy measurement data subscription via REST API and receive UDP datagram from a publishing service by type and value.
-- Developed a publishing service, which can receive subscription via HTTP request (GET, POST,  DELETE) and perform content-based routing in OpenFlow network. The services is developed as a Java module in Floodlight controller. The routing algorithm is based on sorting and merging interval of encoded IP-address to minimize network traffic and reduce application filtering effort.
+- Developed a "Subscriber" Java application which can subscribe to publishing service via REST API and receive UDP datagram from publisher.
+- Developed a publishing service, which can receive subscription via HTTP request (GET, POST,  DELETE) and perform content-based routing in OpenFlow network. 
+
+
 - Follow-up: GitHub reformat
 - Jakson parser
 
