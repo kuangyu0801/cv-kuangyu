@@ -17,29 +17,30 @@
 % Created by Trey Hunner and modified by www.LaTeXTemplates.com
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
+\NeedsTeXFormat{LaTeX2e}
 \ProvidesClass{resume}[2010/07/10 v0.9 Resume class]
 
-\LoadClass[8pt,letterpaper]{article} % Font size and paper type
- \renewcommand{\familydefault}{\sfdefault} % Using sans font as a default
+\LoadClass[8pt,letterpaper]{article}      % Font size and paper type
+\renewcommand{\familydefault}{\sfdefault} % Using sans serif font family as a default
 
-\usepackage[parfill]{parskip} % Remove paragraph indentation
-\usepackage{array} % Required for boldface (\bf and \bfseries) tabular columns
-\usepackage{ifthen} % Required for ifthenelse statements
-\pagestyle{empty} % Suppress page numbers
+\usepackage[parfill]{parskip}       % Remove paragraph indentation
+\usepackage{array}                  % Required for boldface (\bf and \bfseries) tabular columns
+\usepackage{ifthen}                 % Required for ifthenelse statements
+
+\nofiles                            % .aux files are not needed for resumes
+\pagestyle{empty}                   % Suppress page numbers
 
 %----------------------------------------------------------------------------------------
 %	HEADINGS COMMANDS: Commands for printing name and address
 %----------------------------------------------------------------------------------------
 
-\def \name#1{\def\@name{#1}} % Defines the \name command to set name
+\def \name #1{\def\@name{#1}} % Defines the \name command to set name
 \def \@name {} % Sets \@name to empty by default
 
-\def \headline#1{\def\@headline{#1}} % Defines the \headline command to set headline
+\def \headline #1{\def\@headline{#1}} % Defines the \headline command to set headline
 \def \@headline {} % Sets \@headline to empty by default
 
-
-\def \addressSep {$\diamond$} % Set default address separator to a diamond
+\def \addressSep {$\mid$} % Set default address separator to '|'
 
 % One, two or three address lines can be specified 
 \let \@addressone \relax
@@ -72,19 +73,17 @@
 \def \printname {
   \begingroup
     \hfil{\MakeUppercase{\namesize\bf \@name}}\hfil
-    \nameskip\break
+    \nameskip \break
   \endgroup
 }
 
 % \printheadline is used to print the name as a page header
 \def \printheadline {
+  \addressskip
   \begingroup
-  \begin{center}
-  •\@headline
-  \end{center}
-	
+  \centerline{\large \@headline}
   \endgroup
-  \par
+  
 }
 %----------------------------------------------------------------------------------------
 %	PRINT THE HEADING LINES
@@ -94,7 +93,7 @@
 \renewcommand{\document}{
   \ori@document  % Begin document
   \printname % Print the name specified with \name
- % \printheadline % Print the headline specified with \headline
+  \printheadline % Print the headline specified with \headline
   \@ifundefined{@addressone}{}{ % Print the first address if specified
     \printaddress{\@addressone}}
   \@ifundefined{@addresstwo}{}{ % Print the second address if specified
@@ -142,5 +141,5 @@
 \def\namesize{\huge} % Size of the name at the top of the document
 \def\addressskip{\smallskip} % The space between the two address (or phone/email) lines
 \def\sectionlineskip{\smallskip} % The space above the horizontal line for each section 
-\def\nameskip{\bigskip} % The space after your name at the top
+\def\nameskip{\medskip} % The space after your name at the top
 \def\sectionskip{\medskip} % The space after the heading section

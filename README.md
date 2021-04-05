@@ -21,7 +21,11 @@
 	+ Google recruiters always look for the 'X-Y-Z formula' in candidates' resumes when deciding who to hire https://www.businessinsider.com/what-google-recruiters-look-for-resume-including-x-y-z-formula-9?r=DE&IR=T
 # 改進項目
 - 見issue https://github.com/kuangyu0801/cv-kuangyu/issues
-
+# latex
+	- \def https://en.wikibooks.org/wiki/TeX/def
+	- \let 
+	- \relax https://en.wikibooks.org/wiki/TeX/relax
+	- line spacing https://www.overleaf.com/learn/latex/Line_breaks_and_blank_spaces#Reference_guide
 # 檢查
 1. Typos
 2. Length
@@ -66,6 +70,24 @@ Requirements:
 	- 加入protocol: HTTP, TCP/IP,
 
 ## 工作經驗
+
+
+View job description
+Internship/Praktikum: Integrated Development Environment (m/w/x)
+Are you interested in coding standards and state-of-the-art software development? Ever asked yourself, how this is working in a complex environment with server and client side and multiple programming languages? 
+To enhance our development efficiency we are looking for motivated students helping us to set up an integrated development environment with remote development and debugging capabilities, static code analysis and unit test integration. 
+
+Together with our highly motivated and innovative team you will be evaluting tools, delivering prototypes and collect feedback from your stakeholders - our developers. 
+ 
+Requirements: 
+Interest in coding standards and state-of-the-art software development
+Knowledge of at least one object oriented programming language (e.g. Java, Javascript, ...) 
+Python or Bash
+Git 
+Languages: English/German
+
+
+
 - 需要好的動詞！https://www.monster.com/career-advice/article/sample-resume-software-engineer-midlevel
 - 數字化導向：我經手的project跟product!
 - design interface between HW, BRP, L1
