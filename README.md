@@ -22,10 +22,10 @@
 # 改進項目
 - 見issue https://github.com/kuangyu0801/cv-kuangyu/issues
 # latex
-	- \def https://en.wikibooks.org/wiki/TeX/def
-	- \let 
-	- \relax https://en.wikibooks.org/wiki/TeX/relax
-	- line spacing https://www.overleaf.com/learn/latex/Line_breaks_and_blank_spaces#Reference_guide
+- \def https://en.wikibooks.org/wiki/TeX/def
+- \let 
+- \relax https://en.wikibooks.org/wiki/TeX/relax
+- line spacing https://www.overleaf.com/learn/latex/Line_breaks_and_blank_spaces#Reference_guide
 # 檢查
 1. Typos
 2. Length
