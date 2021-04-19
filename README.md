@@ -1,5 +1,5 @@
 # cv-kuangyu
-
+- google slides: https://docs.google.com/presentation/d/1y4I8sZbbEzYS4bY7CbZFTadQKONtXAtyZQDfRb5qEBk/edit?usp=sharing
 # 參考資料：
 - 檢查履歷vs職缺keyword jobscan: https://www.jobscan.co/
 	+ Beat the Robots: How to Get Your Resume Past the System & Into Human Hands https://www.themuse.com/advice/beat-the-robots-how-to-get-your-resume-past-the-system-into-human-hands
