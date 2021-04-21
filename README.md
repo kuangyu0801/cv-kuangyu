@@ -19,6 +19,7 @@
 - 英文標題大寫準則： https://www.dailywritingtips.com/capitalizing-the-elements-of-a-compound-word-in-a-title/
 - X-Y-Z fomular
 	+ Google recruiters always look for the 'X-Y-Z formula' in candidates' resumes when deciding who to hire https://www.businessinsider.com/what-google-recruiters-look-for-resume-including-x-y-z-formula-9?r=DE&IR=T
+- action verb: https://www.themuse.com/advice/185-powerful-verbs-that-will-make-your-resume-awesome
 # 改進項目
 - 見issue https://github.com/kuangyu0801/cv-kuangyu/issues
 # latex
