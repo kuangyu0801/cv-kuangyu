@@ -97,13 +97,13 @@
 %----------------------------------------------------------------------------------------
 
 \begin{rSection}{PROJECTS}
-\begin{rSubsection}{\href{https://github.com/kuangyu0801/software-defined-networking-ws20/tree/main/sdn-assign-04}{Content-Based Router for Publish-Subscribe Service}} { Java, REST API, HTTP}{SDN Lab}{}
+\begin{rSubsection}{\href{https://github.com/kuangyu0801/software-defined-networking-ws20/tree/main/sdn-assign-04}{Content-Based Router for Publish-Subscribe Service}} { Java, REST API, HTTP}{Distributed System Lab}{}
 \item Developed a routing controller in a Java module, which provides content-based routing for pub/sub service to minimize network traffic and reduce application filtering effort. The routing algorithm is based on sorting and merging interval of encoded IP-address 
 \item Developed a "Subscriber" Java application which can subscribe to publishing service via REST API and receive UDP  from publisher.
 \item Developed a one-to-many publishing service in Floodlight controller, which can receive subscription via HTTP request (GET, POST, and DELETE) and perform content-based routing in a OpenFlow network.
 \end{rSubsection}
 
-\begin{rSubsection}{\href{https://github.com/kuangyu0801/software-defined-networking-ws20/tree/main/sdn-assign-03}{Dynamic Routing for Software-Defined Network}} {Java, Dijkstra's algorithm}{SDN Lab}{}
+\begin{rSubsection}{\href{https://github.com/kuangyu0801/software-defined-networking-ws20/tree/main/sdn-assign-03}{Dynamic Routing for Software-Defined Network}} {Java, Dijkstra's algorithm}{Distributed System Lab}{}
 \item Developed a Java module in Floodlight controller, which provides 2 dynamic routing modes in OpenFlow network. 
 \item Reactive mode routes with shortest path. Adaptive mode routes TCP flow with load balancing by querying network traffic statistics dynamically and matching IP addresses and TCP ports. The implementation is based on Dijkstra's algorithm.
 \item Verified application with Iperf in MiniNet on Linux and achieves 6x bandwidth increase (582kbs vs 3478kbs) in adaptive mode
