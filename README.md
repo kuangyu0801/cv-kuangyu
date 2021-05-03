@@ -49,6 +49,13 @@ The New York Times test is helpful here: if you wouldn't want to see it on the h
 - [Done] 之後再放住址
 - [Done] 版本管理
 
+## 幫自己的能力分類
+Lv 0. 代表 不具備該項能力
+Lv 1. 代表 我知道該領域的知識
+Lv 2. 代表 我知道該領域的知識並可以獨立操作
+Lv 3. 代表 我可以擔任講師並教授他人
+LV 4. 代表 我可以獨立解決和改善問題
+
 ## Professional Headline/Summary
 - 關鍵字：back-end, cloud, java, software
 - 目前想到的有
