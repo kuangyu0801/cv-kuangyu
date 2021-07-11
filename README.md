@@ -1,4 +1,9 @@
 # cv-kuangyu
+
+# short-introduction
+
+Kuang-Yu Li is a full-stack developer, cloud specialist, and DevOps advocate. His background makes him a perfect candidate for the backend developer in Shopee: 1) he is an experienced developer at IBM and  MediaTek, 2) he is a self-motivated learner with solid fundamental knowledge of cloud and web technologies, and 3) he is a team player with agile practice mindsets. Working as a backend developer at Shopee would allow him to contribute to Shopee while achieving his career goal as a solution architect.
+
 - google slides: https://docs.google.com/presentation/d/1y4I8sZbbEzYS4bY7CbZFTadQKONtXAtyZQDfRb5qEBk/edit?usp=sharing
 # 參考資料：
 - 檢查履歷vs職缺keyword jobscan: https://www.jobscan.co/
