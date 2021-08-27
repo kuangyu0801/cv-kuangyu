@@ -6,6 +6,11 @@ Kuang-Yu Li is a full-stack developer, cloud specialist, and DevOps advocate. Hi
 
 - google slides: https://docs.google.com/presentation/d/1y4I8sZbbEzYS4bY7CbZFTadQKONtXAtyZQDfRb5qEBk/edit?usp=sharing
 # 參考資料：
+
+- 谷歌教你如何寫CV: [https://learndigital.withgoogle.com/digitalgarage/course/start-a-cv](https://learndigital.withgoogle.com/digitalgarage/course/start-a-cv)
+- 我的履歷[https://www.overleaf.com/project](https://www.overleaf.com/project)
+- 軟體工程履歷範本[https://www.visualcv.com/resume-samples/software-engineer/](https://www.visualcv.com/resume-samples/software-engineer/)
+
 - 檢查履歷vs職缺keyword jobscan: https://www.jobscan.co/
 	+ Beat the Robots: How to Get Your Resume Past the System & Into Human Hands https://www.themuse.com/advice/beat-the-robots-how-to-get-your-resume-past-the-system-into-human-hands
 - 地裡資料總整理（許多reference link已經失效需要另外google）：https://www.1point3acres.com/bbs/thread-19-1-1.html
