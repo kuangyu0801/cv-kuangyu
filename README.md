@@ -33,6 +33,12 @@ Kuang-Yu Li is a full-stack developer, cloud specialist, and DevOps advocate. Hi
 - german grades to gpa:
 	+ https://collegelearners.com/convert-german-gpa-to-us-gpa/
 	+ https://www.scholaro.com/grade-conversion/
+
+# Cover Letter
+glassdoor教學如何撰寫Cover Letter: [https://www.glassdoor.com/blog/guide/how-to-write-a-cover-letter/](https://www.glassdoor.com/blog/guide/how-to-write-a-cover-letter/)
+
+哈佛cover letter範例[https://hls.harvard.edu/content/uploads/2008/06/allcoverlettersweb2011.pdf](https://hls.harvard.edu/content/uploads/2008/06/allcoverlettersweb2011.pdf)
+
 # 改進項目
 - 見issue https://github.com/kuangyu0801/cv-kuangyu/issues
 # latex
