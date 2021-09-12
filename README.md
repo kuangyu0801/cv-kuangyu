@@ -36,6 +36,32 @@ Kuang-Yu Li is a full-stack developer, cloud specialist, and DevOps advocate. Hi
 	+ https://collegelearners.com/convert-german-gpa-to-us-gpa/
 	+ https://www.scholaro.com/grade-conversion/
 
+# LinkedIn Improvement
+take away
+
+- principle "up-to-date" and "detailed"
+- spend time on "About" (w/ personal touch)
+- Add links in experiences or works
+- Ask and give recommendations from colleagues
+- constantly checking with logged out to check visibility and googlebility
+- Invitation from stranger
+	+is it a active profile ? is it in my industry?
+
+
+how to increase your visibility on Social Networks and engage with potential prospects (APAC&JP)
+
+How To Improve your LinkedIn Profile w/Grace Jansen: https://ec.yourlearning.ibm.com/w3/playback/10151692
+https://ec.yourlearning.ibm.com/w3/event/10196212
+The Perfect Template for Writing a LinkedIn Article That Makes You Sound Smart: https://www.themuse.com/advice/the-perfect-template-for-writing-a-linkedin-article-that-makes-you-sound-smart
+How to Write a Killer LinkedIn Recommendation in Under 2 Min https://www.linkedin.com/pulse/how-write-killer-linkedin-recommendation-under-2-min-ryan-delon/
+4 Keys to Scoring Amazing LinkedIn Recommendations https://www.themuse.com/advice/4-keys-to-scoring-amazing-linkedin-recommendations
+How to Build a First-Rate LinkedIn Profile, top to bottom
+Take your LinkedIn Profile to the next level https://w3.ibm.com/w3publisher/how2/career-corner/blog/0677add0-022a-11ea-af41-77d18ef1d19e
+SSI INDEX: https://business.linkedin.com/sales-solutions/social-selling/the-social-selling-index-ssi
+50 Free Photos You Can Use to Make Your Social Profiles More Stunning https://www.themuse.com/advice/50-free-photos-you-can-use-to-make-your-social-profiles-more-stunning?utm_source=Sailthru&utm_medium=email&utm_term=Sunday%20-%20Best%20of%20The%20Web&utm_campaign=%2A%20Best%20of%20the%20Web%20-%2012%2F14%2F14
+Does Your LinkedIn Headline Suck? https://www.themuse.com/advice/does-your-linkedin-headline-suck
+
+
 # Cover Letter
 glassdoor教學如何撰寫Cover Letter: [https://www.glassdoor.com/blog/guide/how-to-write-a-cover-letter/](https://www.glassdoor.com/blog/guide/how-to-write-a-cover-letter/)
 
