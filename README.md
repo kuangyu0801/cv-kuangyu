@@ -203,6 +203,35 @@ of tennis match statics.
 
 Discovered, 
 
+# My Days at G
+
+## 2022 
+
+Role: SWE
+Team: Modem System Software, Pixel Mobile Wireless, Device and Services (PA)
+### Goal
+- Develop GeMS framework
+  - Implement wrapper APIs for ShannnonOS by extending extisting pigweed moduels. Theses moduelsare necessary for  GMestris features in modem. Add unit and integration tests for every implemented module.
+  - Assist GeMS tram members to establish user-friendly dev env (build, debug, unit test, infra , IDE config)
+ config static analysiss derive design insight from GeMS module deve and contribute these insigths to pigweed upstram for other emmbed  project benefit
+- Rampup to MSS Developer from Noggler
+  - Become fluent and competen in Android workflow and tolls for independent t modem development by flooing the codelabs tutorial. The tools include version control (repo git gerrit) build system android build server, Forrest, adb) test infra treehugger and release.
+- Contribute to SWE Interview process
+
+### Review
+
+- Delivery:
+  - Designed and Implemented 2 GeMS primitives: Memory (P0) and Queue (P1) by investigating ShannonOS and QURT API, gathering use cases and designing feedback, and taking design reviews.
+  - Implemented 3 Pigweed primitive backends: SystemTimer, ThreadNotificationa Assertion on ShannonOS.
+  - Facilitated GeMS infra to follow Google SW core practices by 1) configuring static analysis(clang-tidy), formatting(clang-format), and license check(addlicenses) in presubmit checks to improve code quality and readability and 2) developing a Plugweed plugin for automatic API reference Doc generation (Doxygen)
+  - Been familiar with modem debugging by identifying MMU Stack Virtualization as the root cause of system timer crashes. Been able to do experiments and bisection codes, analyze ram dumps, discuss with TLs and pigweed experts, and document the details.
+  - Quickly ramp up from onboard Improved C++ language skills and software design patterns while developing GeMS project.
+
+- Teamwork Attributes
+  - Supported GeMS users by quickly responding to their queries, debugging their issues during dev, and documenting the question and issues on YAQS and GeMS chat room
+  - Qualified for interviews. Finished interviewer training and conducted a shadow interview of an L4 SWE
+  - Provided valuable feedback on GeMS feature design
+
 # My Days in MTK
 - 同一個公司不同地域的職位關係
 	- 英國負責演算法
