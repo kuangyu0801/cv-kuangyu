@@ -119,7 +119,38 @@ Requirements:
 
 ## 工作經驗
 
+### SWE Google
+- Software Engineer, Pixel Mobile Wireless
 
+Minimum qualifications:
+
+Bachelor's degree in Computer Science, Electrical Engineering, or related technical field or equivalent practical experience.
+Experience with algorithms, data structures, complexity analysis, and software design.
+Experience programming in one or more of the following languages: Java, C++, and/or C.
+Preferred qualifications:
+
+Experience in cellular wireless technologies and/or IP Multimedia Subsystem (IMS).
+Experience with Android development.
+Knowledge of Android frameworks.
+
+
+About the job
+Google's software engineers develop the next-generation technologies that change how billions of users connect, explore, and interact with information and one another. Our products need to handle information at massive scale, and extend well beyond web search. We're looking for engineers who bring fresh ideas from all areas, including information retrieval, distributed computing, large-scale system design, networking and data storage, security, artificial intelligence, natural language processing, UI design and mobile; the list goes on and is growing every day. As a software engineer, you will work on a specific project critical to Google’s needs with opportunities to switch teams and projects as you and our fast-paced business grow and evolve. We need our engineers to be versatile, display leadership qualities and be enthusiastic to take on new problems across the full-stack as we continue to push technology forward.
+
+As a Software Engineer, you will have an opportunity to work with mobile wireless technologies. You will develop and launch features on Android and Pixel that will impact users around the world. You will propose and implement solutions for phones and devices to improve performances and create critical differentiation for Android and Pixel.
+
+The Google Pixel team focuses on designing and delivering the world's most helpful mobile experience. The team works on shaping the future of Pixel devices and services through some of the most advanced designs, techniques, products, and experiences in consumer electronics. This includes bringing together the best of Google’s artificial intelligence, software, and hardware to build global smartphones and create transformative experiences for users across the world.
+
+
+Responsibilities:
+Propose, design, and develop telephony features in Pixel-specific Android applications and/or in the Android framework, with additional software components on the server side.
+Collaborate closely with other software teams in Google and external parties (e.g., mobile chipset vendors, mobile operators, and original equipment manufacturers (OEMs)) to design, develop, and launch features and products on time and with highest quality.
+Understand the mobile wireless requirements and carrier specifications to implement features defined by standard bodies or mobile operators that enhance the user experience.
+Debug and fix bugs reported during integration and field testing, and define mechanisms to mitigate issues.
+Propose and implement various performance optimizations across the telephony stack (e.g., memory, power, and/or bandwidth reduction). Define metrics that allow the monitoring of the performances of Pixel devices.
+
+
+### Intern IBM
 View job description
 Internship/Praktikum: Integrated Development Environment (m/w/x)
 Are you interested in coding standards and state-of-the-art software development? Ever asked yourself, how this is working in a complex environment with server and client side and multiple programming languages? 
